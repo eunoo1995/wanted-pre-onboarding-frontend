@@ -1,14 +1,14 @@
 .container {
   @apply w-screen h-screen;
-  @apply bg-gradient-to-br from-rose-100 to-blue-100;
+  @apply bg-gradient-to-br from-gray-100 to-blue-200;
 }
 
 .wrapper {
-  @apply max-w-4xl h-screen mx-auto py-20;
+  @apply max-w-4xl h-screen mx-auto py-28;
   @apply flex flex-col items-center;
 }
 
 .title {
   @apply font-semibold;
-  @apply text-[80px] text-rose-600 text-opacity-60;
+  @apply text-[80px] text-primary;
 }
