@@ -32,6 +32,7 @@ export const AuthForm = ({
         />
         <span className={style.error}>{error}</span>
         <Button
+          data-testid={type === 'signin' ? 'signin-button' : 'signup-button'}
           content={type === 'signin' ? '로그인' : '회원가입'}
           isValid={isValid}
         />
