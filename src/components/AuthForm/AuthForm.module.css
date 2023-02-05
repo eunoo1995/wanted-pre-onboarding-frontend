@@ -1,0 +1,21 @@
+.container {
+  @apply w-[500px] h-[600px];
+  @apply pt-32;
+}
+
+.form {
+  @apply flex flex-col items-center gap-12;
+}
+
+.error {
+  @apply h-7;
+  @apply text-lg text-red-500;
+}
+
+.link {
+  @apply text-center mt-7 p-2;
+}
+
+.link a {
+  @apply p-2 text-primary text-opacity-80 underline;
+}

@@ -1,0 +1,12 @@
+.list {
+  @apply w-4/5 relative h-[500px] overflow-auto;
+  @apply my-5;
+}
+
+.list::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.empty {
+  @apply text-3xl text-center pt-48 text-primary text-opacity-30;
+}
