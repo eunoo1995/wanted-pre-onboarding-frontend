@@ -1,0 +1,13 @@
+.button {
+  @apply bg-primary bg-opacity-60;
+  @apply border border-white;
+  @apply w-36 h-12;
+  @apply text-3xl text-white font-semibold;
+  @apply rounded-md border;
+  @apply transition-all;
+}
+
+.button:disabled {
+  @apply bg-gray-400 bg-opacity-70 cursor-not-allowed border-gray-400;
+  @apply text-gray-200;
+}
