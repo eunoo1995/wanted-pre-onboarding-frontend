@@ -1,3 +1,19 @@
+import { Todos } from '../containers';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { getAuthToken } from '../lib/jwt/authToken';
+
 export const TodoPage = () => {
-  return <div>투두</div>;
+  const navigate = useNavigate();
+  const token = getAuthToken();
+
+  useEffect(() => {
+    if (!token) navigate('/signin');
+  });
+
+  return (
+    <>
+      <Todos />
+    </>
+  );
 };

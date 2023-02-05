@@ -1,3 +1,15 @@
+import { SignInForm } from '../containers';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { getAuthToken } from '../lib/jwt/authToken';
+
 export const SignInPage = () => {
-  return <div>로그인</div>;
+  const navigate = useNavigate();
+  const token = getAuthToken();
+
+  useEffect(() => {
+    if (token) navigate('/todo');
+  });
+
+  return <>{!token && <SignInForm />}</>;
 };

@@ -1,26 +1,23 @@
 import axios from './axios';
 
 export const createTodo = async todo => {
-  const { data, status } = await axios.post('/todos', {
+  const { data } = await axios.post('/todos', {
     todo,
   });
-  return { data, status };
+  return data;
 };
 
 export const getTodos = async () => {
-  const { data, status } = await axios.get('/todos');
-  return { data, status };
+  const { data } = await axios.get('/todos');
+  return data;
 };
 
 export const updateTodo = async ({ id, todo, isCompleted }) => {
-  const { data, status } = await axios.put(`/todos/${id}`, {
+  const { data } = await axios.put(`/todos/${id}`, {
     todo,
     isCompleted,
   });
-  return { data, status };
+  return data;
 };
 
-export const deleteTodo = async id => {
-  const { status } = await axios.delete(`/todos/${id}`);
-  return { status };
-};
+export const deleteTodo = async id => await axios.delete(`/todos/${id}`);

@@ -1,17 +1,15 @@
 import axios from './axios';
 
-export const signIn = async ({ userId, password }) => {
-  const { data, status } = await axios.post('/auth/signin', {
-    userId,
+export const signIn = async ({ email, password }) => {
+  const { data } = await axios.post('/auth/signin', {
+    email,
     password,
   });
-  return { data, status };
+  return data;
 };
 
-export const signUp = async ({ userId, password }) => {
-  const { data, status } = await axios.post('/auth/signup', {
-    userId,
+export const signUp = async ({ email, password }) =>
+  await axios.post('/auth/signup', {
+    email,
     password,
   });
-  return { data, status };
-};

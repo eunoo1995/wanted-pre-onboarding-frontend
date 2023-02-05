@@ -1,0 +1,23 @@
+.form {
+  @apply w-4/5 h-11;
+  @apply flex items-center justify-between gap-4;
+}
+
+.input {
+  @apply appearance-none;
+  @apply grow h-11;
+  @apply bg-white;
+  @apply border rounded;
+  @apply p-3;
+  @apply placeholder:text-white;
+  @apply outline-none;
+  @apply transition-all focus:border-2 focus:border-primary border-opacity-30;
+}
+
+.button {
+  @apply w-20 h-11;
+  @apply bg-primary bg-opacity-60;
+  @apply border border-white;
+  @apply text-2xl text-white font-semibold;
+  @apply rounded-md border;
+}

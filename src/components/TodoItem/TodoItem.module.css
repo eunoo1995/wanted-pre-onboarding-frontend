@@ -1,0 +1,42 @@
+.li {
+  @apply list-none;
+  @apply w-full;
+  @apply flex items-center justify-between gap-4;
+  @apply pt-4;
+}
+
+.label {
+  @apply flex items-center gap-4;
+  @apply grow;
+}
+
+.label img {
+  @apply w-10 h-10;
+}
+
+.label span {
+  @apply text-3xl text-black;
+}
+
+.label input:checked ~ span {
+  @apply line-through;
+}
+
+.li button {
+  @apply w-20 h-11;
+  @apply bg-primary bg-opacity-60;
+  @apply border border-white;
+  @apply text-2xl text-white font-semibold;
+  @apply rounded-md border;
+}
+
+.input {
+  @apply appearance-none;
+  @apply w-[530px] h-11;
+  @apply bg-white;
+  @apply border rounded;
+  @apply p-3;
+  @apply placeholder:text-white;
+  @apply outline-none;
+  @apply transition-all focus:border-2 focus:border-primary border-opacity-30;
+}
