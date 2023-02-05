@@ -8,7 +8,7 @@ export const Main = () => {
 
   useEffect(() => {
     if (location.pathname === '/') navigate('/signin');
-  }, []);
+  }, [location.pathname, navigate]);
 
   return (
     <main className={style.container}>
