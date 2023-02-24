@@ -31,7 +31,8 @@ Web site created using create-react-app
 - [x] 로그인 페이지에서 버튼 클릭 시, 로그인을 진행하고 로그인이 정상적으로 완료되었을 시 /todo 경로로 이동
 - [x] 로그인 여부에 따른 리다이렉트 처리를 구현
 
-#### 구현 gif
+#### 구현 GIF
+ <img src="https://user-images.githubusercontent.com/95074093/221157788-57128534-5644-4316-a695-794d63a2aff2.gif" width="300"/>
 
 </div>
 </details>
@@ -48,8 +49,9 @@ Web site created using create-react-app
 - [x] TODO는 li tag를 이용해 감싸기 
 - [x] 리스트 페이지에 새로운 TODO를 입력할 수 있는 input과 추가 button 만들기
 
-#### 구현 gif
-
+#### 구현 GIF
+  <img src="https://user-images.githubusercontent.com/95074093/221158080-b3261967-6ec8-4452-b3fe-318b9bee0ab5.gif" width="300"/>
+ 
 </div>
 </details>
 
@@ -161,8 +163,10 @@ Web site created using create-react-app
 
 ## ⏯️ 프로젝트 실행
 
+> 실행 시 .env 파일이 존재하지 않아 정상적인 작동
+
 ```
-git clone URL ( 자윤님 코드에 환경변수가 사용되었다면 해당 로직 정보 추가하기)
+git clone URL 
 
 cd project wanted-pre-onboarding-frontend-week1
 
