@@ -3,10 +3,6 @@
 원티드 프리온보딩 사전과제로 만든 로그인/회원가입 기능이 있는 간략한 Todo List를 리팩토링한 레포지토리입니다.<br>
 해당 프로젝트에서는 원티드에서 제공한 API를 사용하였습니다.
 
-## [🔗 배포 URL](https://week1-assignment-bice.vercel.app/)
-React App
-Web site created using create-react-app
-
 ## 📆 진행 기간
 **2023. 02. 21 ~ 2023. 02. 24**
 <br>
