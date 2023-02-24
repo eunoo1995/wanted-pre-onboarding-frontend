@@ -1,6 +1,6 @@
 # 1주차 과제
 > 원티드 프리온보딩 프론트엔드 5팀입니다.<br>
-해당 레포지토리는 원티드 프리온보딩 사전과제로 만든 로그인/회원가입 기능이 있는 간략한 Todo List를 리팩토링한 레포지토리입니다.<br>
+원티드 프리온보딩 사전과제로 만든 로그인/회원가입 기능이 있는 간략한 Todo List를 리팩토링한 레포지토리입니다.<br>
 해당 프로젝트에서는 원티드에서 제공한 API를 사용하였습니다.
 
 ## [🔗 배포 URL](https://week1-assignment-bice.vercel.app/)
@@ -275,7 +275,7 @@ git clone URL
 
 cd project wanted-pre-onboarding-frontend-week1
 
-.env > REACT_APP_API_URL={API_URL}
+.env 생성 & REACT_APP_API_URL={API_URL}
 
 npm install
 
